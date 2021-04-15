@@ -17,7 +17,7 @@ class BuildPack
   end
 
   def pretty_print
-    "the #{rank.capitalize} of #{suit.capitalize}s"
+    "#{rank.capitalize} of #{suit.capitalize}s"
   end
 
 end
