@@ -12,7 +12,7 @@ while running
   if %w[y yes].include?(first_answer)
     puts "cut from the top, middle or bottom? (t/m/b)"
     second_answer = gets.chomp
-    ShuffleAndDeal.new('','',second_answer).shuffle_and_deal
+    ShuffleAndDeal.new(second_answer).shuffle_and_deal
   else
     puts 'See ya!'
     running = false

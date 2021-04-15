@@ -4,11 +4,9 @@ require_relative "build_pack"
 require 'pry'
 
 class ShuffleAndDeal
-  attr_reader :rank, :suit, :deal_position
+  attr_reader :deal_position
 
-  def initialize(rank='',suit='',deal_position='')
-    @rank = rank
-    @suit = suit
+  def initialize(deal_position='')
     @deal_position = deal_position
   end
 
@@ -19,6 +17,8 @@ class ShuffleAndDeal
     show_shuffled_pack(shuffled_pack)
     deal_card(shuffled_pack)
   end
+
+  private
 
   def deal_card(shuffled_pack)
     case deal_position
@@ -38,10 +38,6 @@ class ShuffleAndDeal
 
   def dealer_output
     puts "shufflin' n' dealin'"
-  end
-
-  def pretty_print
-    "the #{rank.capitalize} of #{suit.capitalize}s"
   end
 
   def show_shuffled_pack(shuffled_pack)
