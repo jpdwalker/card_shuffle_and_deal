@@ -4,7 +4,9 @@
 
 ```bash
 git clone git@github.com:jpdwalker/card_shuffle_and_deal.git
-or
+
+OR
+
 git clone https://github.com/jpdwalker/card_shuffle_and_deal.git
 ```
 
