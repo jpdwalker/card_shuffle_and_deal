@@ -4,6 +4,8 @@
 
 ```bash
 git clone git@github.com:jpdwalker/card_shuffle_and_deal.git
+or
+git clone https://github.com/jpdwalker/card_shuffle_and_deal.git
 ```
 
 ### 2a. Install Ruby if you have not already
