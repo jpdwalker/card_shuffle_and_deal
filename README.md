@@ -8,6 +8,13 @@ git clone git@github.com:jpdwalker/card_shuffle_and_deal.git
 
 ### 2a. Install Ruby if you have not already
 
+#### Check to see if Ruby is installed on your machine
+
+```bash
+ruby -v
+```
+If you have a ruby version installed continue to step 3.
+
 #### Install homebrew package manager on mac
 
 You can install homebrew from https://brew.sh 
